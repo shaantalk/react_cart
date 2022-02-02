@@ -5,12 +5,7 @@ import { CartEmpty } from "../../components/cartEmpty/CartEmpty";
 import CartFull from "../../components/cartFull/CartFull";
 
 function Cart({ cartItems }) {
-  return (
-    <main>
-      {cartItems.length ? <CartFull /> : <CartEmpty />}
-      {/* cartItems={cartItems} */}
-    </main>
-  );
+  return <main>{cartItems.length ? <CartFull /> : <CartEmpty />}</main>;
 }
 
 const mapStateToProps = state => {
