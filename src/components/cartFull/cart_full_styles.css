@@ -1,0 +1,7 @@
+.shopping-cart {
+  width: 1500px;
+  margin: 80px auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}

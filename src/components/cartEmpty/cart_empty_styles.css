@@ -1,0 +1,21 @@
+.cart_empty_container {
+  display: grid;
+  place-items: center;
+  margin-top: 10vh;
+}
+
+.cart_empty_text {
+  color: #004990;
+  font-size: 30px;
+}
+
+.navigate_btn {
+  margin-top: 30px;
+  color: white;
+  background-color: #004990;
+  padding: 5px 20px;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
